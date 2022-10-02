@@ -84,8 +84,8 @@ def Agente(lab_ag, ff, cc, np):
             if j < cc - 1:
                 j += 1
         if (
-            lab_ag[i][j] != muro
-            and lab_ag[i][j] != espacioRecorrido
+            lab_ag[i][j] != espacioRecorrido
+            and lab_ag[i][j] != muro
             and lab_ag[i][j] != agente
         ):
             lab_ag[i_anterior][j_anterior] = espacioRecorrido
@@ -98,8 +98,8 @@ def Agente(lab_ag, ff, cc, np):
 
 
 print("LABERINTO\n Laboratorio 1 de SIS420")
-c = int(input("Introduzca la cantidad de filas del laberinto: "))
-f = int(input("Introduzca la cantidad de columnas del laberinto: "))
+c = int(input("Introduzca la cantidad de columnas del laberinto: "))
+f = int(input("Introduzca la cantidad de filas del laberinto: "))
 n_Pared = int(input("Introduzca la cantidad de muros del laberinto: "))
 n_Espacio = (c * f) - n_Pared
 
