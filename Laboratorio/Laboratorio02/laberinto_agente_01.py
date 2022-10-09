@@ -1,3 +1,10 @@
+## INTEGRANTES:
+#     Quispe Taboada Daniel
+#     Quispe Taboada Daniel
+#     Quispe Taboada Daniel
+#     Quispe Taboada Daniel
+#     Quispe Taboada Daniel
+##    Quispe Taboada Daniel
 import random as rd
 
 muro = "#"
@@ -123,24 +130,26 @@ def Agente(lab_ag, ff, cc, n_P):
                 j += 1
             elif dir == 'Derecha':
                 j -= 1
-        print("  Dirección: " + dir + " -> " + str(direccion))
-        print("    i: "+str(i)+"\n    j: "+str(j))
+        #print("  Dirección: " + dir + " -> " + str(direccion))
+        #print("    i: "+str(i)+"\n    j: "+str(j))
         imprimir(lab_ag)
+        if n == n_P:
+            print("Se termino")
 
 
 print("LABERINTO\n Laboratorio 1 de SIS420")
-c = 10  # int(input("Introduzca la cantidad de columnas del laberinto: "))
-f = 11  # int(input("Introduzca la cantidad de filas del laberinto: "))
-n_Pelota = 2  # int(input("Introduzca la cantidad de pelotas del laberinto: "))
-n_Pared = 60  # int(input("Introduzca la cantidad de muros del laberinto: "))
+c = int(input("Introduzca la cantidad de columnas del laberinto: "))
+f = int(input("Introduzca la cantidad de filas del laberinto: "))
+n_Pelota = int(input("Introduzca la cantidad de pelotas del laberinto: "))
+n_Pared = int(input("Introduzca la cantidad de muros del laberinto: "))
 n_Espacio = (c * f) - n_Pared
 
 laberinto_m = generar_Mapa(c, f)
 imprimir(laberinto_m)
 Agente(laberinto_m, f, c, n_Pelota)
 contador = contar_m(laberinto_m)
-print("Hay " + str(contador[0]) + " muros.")
-print("Hay " + str(contador[1]) + " espacio.")
-print("Hay " + str(contador[2]) + " agente.")
-print("Hay " + str(contador[3]) + " espacio recorrido.")
-print("Hay " + str(contador[4]) + " pelota.")
+#print("Hay " + str(contador[0]) + " muros.")
+#print("Hay " + str(contador[1]) + " espacio.")
+#print("Hay " + str(contador[2]) + " agente.")
+#print("Hay " + str(contador[3]) + " espacio recorrido.")
+#print("Hay " + str(contador[4]) + " pelota.")
