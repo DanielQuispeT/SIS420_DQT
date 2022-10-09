@@ -4,4 +4,5 @@
 > **Carrera:** Ingenieria de Sistemas
 ## Laboratorio
 1. [Laboratorio01, Laberinto](https://github.com/DanielQuispeT/SIS420_DQT/tree/main/Laboratorio/Laboratorio01)
+2. [Laboratorio02, Agente](https://github.com/DanielQuispeT/SIS420_DQT/tree/main/Laboratorio/Laboratorio01)
 ## Práctica
