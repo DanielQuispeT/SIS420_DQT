@@ -1,11 +1,21 @@
-## INTEGRANTES:
+# INTEGRANTES:
 #     Quispe Taboada Daniel
-#     Quispe Taboada Daniel
-#     Quispe Taboada Daniel
-#     Quispe Taboada Daniel
-#     Quispe Taboada Daniel
-##    Quispe Taboada Daniel
+#     Mamani Acha Alvin Jairo
+#     Mamani Alarcon Anabel
+#     Romero Orias Aurora
+#     Terrazas Paco Shirley Guadalupe
+#     Vidaurre Mejia Christian Paul
+
+# Caso de nuestro agente
+# Parcialmente observable
+#  Agente individual
+#  Entorno estocastico
+#  Secuencial
+#  Semidinamico
+#  Discreto
+#
 import random as rd
+import time
 
 muro = "#"
 espacio = " "
@@ -54,30 +64,8 @@ def imprimir(l_i):
         print(" ".join(map(str, line)))
 
 
-def contar_m(matriz):
-    contador = [
-        0,
-        0,
-        0,
-        0,
-        0
-    ]  # contador0:muro; contador1:espacio; contador2:agente; contador3:espaciorecorrido; contador4: pelota
-    for i in range(0, f):
-        for j in range(0, c):
-            if matriz[i][j] == muro:
-                contador[0] += 1
-            elif matriz[i][j] == espacio:
-                contador[1] += 1
-            elif matriz[i][j] == agente:
-                contador[2] += 1
-            elif matriz[i][j] == espacioRecorrido:
-                contador[3] += 1
-            elif matriz[i][j] == pelota:
-                contador[4] += 1
-    return contador
-
-
 def Agente(lab_ag, ff, cc, n_P):
+    inicio = time.time()
     n = 0
     intento = 1
     i = rd.randrange(f)
@@ -89,7 +77,6 @@ def Agente(lab_ag, ff, cc, n_P):
     i_anterior = i
     j_anterior = j
     print(" Intento " + str(intento))
-    print("    i: "+str(i)+"\n    j: "+str(j))
     imprimir(lab_ag)
     dir = ''
     while n < n_P:
@@ -115,8 +102,8 @@ def Agente(lab_ag, ff, cc, n_P):
             and lab_ag[i][j] != agente
         ):
             if lab_ag[i][j] == pelota:
-                print("  Se agarro pelota")
                 n += 1
+                print("  Se agarro la pelota Nro. "+str(n))
             lab_ag[i_anterior][j_anterior] = espacioRecorrido
             i_anterior = i
             j_anterior = j
@@ -130,10 +117,10 @@ def Agente(lab_ag, ff, cc, n_P):
                 j += 1
             elif dir == 'Derecha':
                 j -= 1
-        #print("  Dirección: " + dir + " -> " + str(direccion))
-        #print("    i: "+str(i)+"\n    j: "+str(j))
         imprimir(lab_ag)
         if n == n_P:
+            final = time.time()
+            print("El tiempo transcurrido es " + str(final - inicio))
             print("Se termino")
 
 
@@ -147,9 +134,3 @@ n_Espacio = (c * f) - n_Pared
 laberinto_m = generar_Mapa(c, f)
 imprimir(laberinto_m)
 Agente(laberinto_m, f, c, n_Pelota)
-contador = contar_m(laberinto_m)
-#print("Hay " + str(contador[0]) + " muros.")
-#print("Hay " + str(contador[1]) + " espacio.")
-#print("Hay " + str(contador[2]) + " agente.")
-#print("Hay " + str(contador[3]) + " espacio recorrido.")
-#print("Hay " + str(contador[4]) + " pelota.")
