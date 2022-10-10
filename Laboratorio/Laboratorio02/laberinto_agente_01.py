@@ -6,8 +6,9 @@
 #     Terrazas Paco Shirley Guadalupe
 #     Vidaurre Mejia Christian Paul
 
-# Caso de nuestro agente
-# Parcialmente observable
+#  AGENTE BASADO EN OBJETIVOS
+#  Caso de nuestro agente
+#  Parcialmente observable
 #  Agente individual
 #  Entorno estocastico
 #  Secuencial
