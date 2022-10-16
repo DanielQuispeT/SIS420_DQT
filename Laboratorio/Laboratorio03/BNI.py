@@ -3,9 +3,11 @@
 # Laboratorio 03 
 # 1. Implementamos la funcion de nodos_hijos, para poder 
 # ver los estados que este podria llegar a tener
-# 2. La Pc de Daniel Soporta hasta 7 dgitos con una espera aproximada 
-# de 20 segundos de busqueda.
-# 
+# 2. 
+#   - La Pc de Daniel Soporta hasta 7 dgitos con una espera aproximada 
+#     de 20 segundos de busqueda.
+#   - La Pc de Jairo soporta hasta 6 digitos con una respuesta rapida; 
+#     con 7 digitos tarda alrededor de 2 min para solucionarlo.
 # Las limitaciones de la pc son la memoria RAM, ademas que la velocidad 
 # de procesamiento ademas de la manera en la que se crean los estados 
 # llegan a se inutiles ciertos estados, se subsana con mejores algortimos
