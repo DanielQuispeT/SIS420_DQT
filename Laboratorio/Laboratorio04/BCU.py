@@ -65,25 +65,36 @@ def nodos_hijos(nodo):
         i += 1
     return hijos
 
+def generar_Lista(n):
+    lista = []
+    for i in range(n):
+        lista.append(i+1)
+    return lista
 
 if __name__ == "__main__":
-    estado_inicial = [6, 5, 4, 3, 2, 1]
-    solucion = [1, 2, 3, 4, 5, 6]
+    n = int(input('Tamaño de la lista: '))
+    lista = generar_Lista(n)
+    estado_inicial = list(reversed(lista))
+    solucion = list(lista)
     inicio = time.time()
     nodo_solucion = Busqueda(estado_inicial, solucion)
     fin = time.time()
     print('Tiempo de ejecucion: ', fin - inicio, 'seg.')
     
     resultado = []
+    resultado_costo = []
     nodo_actual = nodo_solucion
     while nodo_actual.get_padre() is not None:
         resultado.append(nodo_actual.get_datos())
+        resultado_costo.append(nodo_actual.get_costo())
         nodo_actual = nodo_actual.get_padre()
 
     resultado.append(estado_inicial)
+    resultado_costo.append(0)
     resultado.reverse()
+    resultado_costo.reverse()
 
     print('\nMovimientos:')
-    for i in resultado:
-        print(i)
+    for i in range(len(resultado)):
+        print(i,resultado[i], ' Costo: ', resultado_costo[i])
     print("Costo: %s" % str(nodo_solucion.get_costo()))
