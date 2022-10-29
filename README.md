@@ -10,7 +10,7 @@
 4. [Laboratorio04, Busque con costo](https://github.com/DanielQuispeT/SIS420_DQT/tree/main/Laboratorio/Laboratorio04)
 ## Práctica
 1. [Practico01, Instalación, biografia, listas](https://github.com/DanielQuispeT/SIS420_DQT/tree/main/Practicas/Practica01)
-##Examenes 
-###Primer Parcial
+## Examenes 
+### Primer Parcial
 1. [Ejercicio del primer parcial](https://github.com/DanielQuispeT/SIS420_DQT/tree/main/Examen/QuispeTaboadaDaniel_1P)
 2. [Defensa del primer parcial](https://github.com/DanielQuispeT/SIS420_DQT/tree/main/Examen/QuispeTaboadaDaniel_1P_Defensa)
