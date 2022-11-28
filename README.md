@@ -8,6 +8,7 @@
 2. [Laboratorio02_, rompecabeza lineal](./Laboratorio/Laboratorio02_)
 3. [Laboratorio03, Busqueda Anchura y profundidad](./Laboratorio/Laboratorio03)
 4. [Laboratorio04, Busqueda con costo](./Laboratorio/Laboratorio04)
+7. [Laboratorio07, Regresion Lineal Simple 'Water Quality'](./Laboratorio/Laboratorio07)
 9. [Laboratorio09, Regresion Lineal Multiple 'Water Quality'](./Laboratorio/Laboratorio09)
 ## Práctica
 1. [Practico01, Instalación, biografia, listas](./Practicas/Practica01)
