@@ -9,7 +9,8 @@
 3. [Laboratorio03, Busqueda Anchura y profundidad](./Laboratorio/Laboratorio03)
 4. [Laboratorio04, Busqueda con costo](./Laboratorio/Laboratorio04)
 7. [Laboratorio07, Regresion Lineal Simple 'Water Quality'](./Laboratorio/Laboratorio07)
-9. [Laboratorio09, Regresion Lineal Multiple 'Water Quality'](./Laboratorio/Laboratorio09)
+8. [Laboratorio08, Regresion Lineal Multiple 'Water Quality'](./Laboratorio/Laboratorio09)
+9. [Laboratorio09, Regresion Lineal Multiple 'Students Performance in Exams'](./Laboratorio/Laboratorio09_)
 ## Práctica
 1. [Practico01, Instalación, biografia, listas](./Practicas/Practica01)
 ## Examenes 
