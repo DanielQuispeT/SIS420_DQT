@@ -12,6 +12,8 @@
 8. [Laboratorio08, Regresion Lineal Multiple 'Water Quality'](./Laboratorio/Laboratorio09)
 9. [Laboratorio09, Regresion Lineal Multiple 'Students Performance in Exams'](./Laboratorio/Laboratorio09_)
 10. [Laboratorio10, Regresion Logística 'Paris Housing Classification'](./Laboratorio/Laboratorio10)
+11. [Laboratorio11, Regresion Logística OneVsAll 'bodyPerformance'](./Laboratorio/Laboratorio11)
+12. [Laboratorio12, Redes Neuronales 'MNIST' numeros](./Laboratorio/Laboratorio12)
 ## Práctica
 1. [Practico01, Instalación, biografia, listas](./Practicas/Practica01)
 ## Examenes 
