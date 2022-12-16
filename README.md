@@ -20,3 +20,6 @@
 ### Primer Parcial
 1. [Ejercicio del primer parcial](./Examen/QuispeTaboadaDaniel_1P)
 2. [Defensa del primer parcial](./Examen/QuispeTaboadaDaniel_1P_Defensa)
+### Segundo Parcial
+1. [Ejercicio 1 del segundo parcial](./Examen/QuispeTaboadaDaniel_1P)
+2. [Ejercicio 2 del segundo parcial](./Examen/QuispeTaboadaDaniel_1P)
