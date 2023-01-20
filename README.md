@@ -23,3 +23,5 @@
 ### Segundo Parcial
 1. [Ejercicio 1 del segundo parcial](./Examen/QuispeTaboadaDaniel_2P/QuispeTaboadaDaniel%20E1.ipynb)
 2. [Ejercicio 2 del segundo parcial](./Examen/QuispeTaboadaDaniel_2P/QuispeTaboadaDaniel%20E2.ipynb)
+### Examen Final
+1. [Ejercicio 1 del Examen Final](./Examen/QuispeTaboadaDaniel_EF)
